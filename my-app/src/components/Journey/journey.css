@@ -1,0 +1,76 @@
+#journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 2rem;
+  color: #eae0d5;
+  text-align: center;
+}
+
+.worksTitle {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.panel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.panel {  
+  background-image: linear-gradient(135deg, #99bc8f, #627a55);
+  border: 1px solid #eae0d5;
+  width: 550px;
+  height: 150px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+.panel:hover {
+  width: 550px;
+  height: 400px;
+}
+
+.panel-header {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.panel-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.panel-header p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+}
+
+.panel-content {
+  padding: 1rem;
+  background-color: #627a55;
+  display: none;
+  height: 100%;
+  text-align: justify;
+}
+
+.panel:hover .panel-content {
+  display: block;
+}
+
+.panel a {
+  color: #eae0d5;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+
+.panel a:hover {
+  color: #4a4e69;
+}

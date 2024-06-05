@@ -1,0 +1,95 @@
+#intro {
+  height: calc(100vh - 8rem);
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  color: #eae0d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  width: 80%;
+  max-width: 1050px;
+}
+
+.introText {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.introText .hi {
+  font-size: 2rem;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  animation: typing 3.5s steps(50, end), blink-caret 0.75s step-end infinite;
+}
+
+.introText span {
+  font-size: 1.5rem;
+}
+
+.introText .grey {
+  font-size: 1.4rem;
+}
+
+.btnGroup {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  margin: 2rem 0;
+  font-size: medium;
+  padding: 0.75rem 1.5rem;
+  background: #627a55;
+  color: #eae0d5;
+  border: 1px solid #eae0d5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px / 60px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #eae0d5;
+  color: #627a55;
+}
+
+.introImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #eae0d5;
+  }
+}
