@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d055144f.css",
+    "main.js": "/static/js/main.3df2a254.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.6db826fe3083d5759367.jpg",
+    "static/media/kb_logo.png": "/static/media/kb_logo.990ee3de76cdd483576b.png",
+    "index.html": "/index.html",
+    "main.d055144f.css.map": "/static/css/main.d055144f.css.map",
+    "main.3df2a254.js.map": "/static/js/main.3df2a254.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d055144f.css",
+    "static/js/main.3df2a254.js"
+  ]
+}
