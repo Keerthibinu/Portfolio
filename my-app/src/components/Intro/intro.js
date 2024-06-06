@@ -17,7 +17,7 @@ const Intro = () => {
             Exploring the dynamic domains of web development and machine learning, driven by curiosity and enthusiasm.
           </span>
           <div className="btnGroup">
-            <a href={'../../assets/Keerthi_Binu_resume.pdf'} download="Keerthi_Binu.pdf">
+            <a href={'/Keerthi_Binu_resume.pdf'} download="Keerthi_Binu.pdf">
               <button className="btn">Resume</button>
             </a>
             <Link to="skills" spy={true} smooth={true} offset={-100} duration={500}><button className="btn">Skills</button></Link>
