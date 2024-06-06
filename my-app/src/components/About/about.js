@@ -28,14 +28,6 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="accordion">
-                        <div className="accordion-header" tabIndex="0">Projects</div>
-                        <div className="accordion-content">
-                            <p>Text Extraction and Recognition from Certificates</p>
-                            <p>Early Stage Detection of Autism Spectrum Disorder</p>
-                            <p>Event Management Website</p>
-                        </div>
-                    </div>
-                    <div className="accordion">
                         <div className="accordion-header" tabIndex="0">Other than coding, I'm also interested in...</div>
                         <div className="accordion-content">
                             <p>Web Surfing</p>
