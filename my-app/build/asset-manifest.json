@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b4161de6.css",
+    "main.css": "/Portfolio/static/css/main.22dafe99.css",
     "main.js": "/Portfolio/static/js/main.2a82cce4.js",
     "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/profile.jpg": "/Portfolio/static/media/profile.6db826fe3083d5759367.jpg",
     "static/media/Keerthi_Binu_resume.pdf": "/Portfolio/static/media/Keerthi_Binu_resume.777df9f5c8549a260bf2.pdf",
     "static/media/kb_logo.png": "/Portfolio/static/media/kb_logo.0a9f1fdfa982ae619ed1.png",
     "index.html": "/Portfolio/index.html",
-    "main.b4161de6.css.map": "/Portfolio/static/css/main.b4161de6.css.map",
+    "main.22dafe99.css.map": "/Portfolio/static/css/main.22dafe99.css.map",
     "main.2a82cce4.js.map": "/Portfolio/static/js/main.2a82cce4.js.map",
     "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4161de6.css",
+    "static/css/main.22dafe99.css",
     "static/js/main.2a82cce4.js"
   ]
 }
