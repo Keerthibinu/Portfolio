@@ -23,7 +23,8 @@
 .panel {  
   background-image: linear-gradient(135deg, #99bc8f, #627a55);
   border: 1px solid #eae0d5;
-  width: 550px;
+  width: 100%;
+  max-width: 550px;
   height: 150px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -32,7 +33,6 @@
 }
 
 .panel:hover {
-  width: 550px;
   height: 400px;
 }
 
@@ -70,7 +70,59 @@
   display: inline-block;
 }
 
-
 .panel a:hover {
   color: #4a4e69;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .worksTitle {
+    font-size: 2.5rem;
+  }
+
+  .panel {
+    height: 150px;
+  }
+
+  .panel:hover {
+    height: 350px;
+  }
+
+  .panel-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .panel-header p {
+    font-size: 0.9rem;
+  }
+
+  .panel-content {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .worksTitle {
+    font-size: 2rem;
+  }
+
+  .panel {
+    height: 150px;
+  }
+
+  .panel:hover {
+    height: 300px;
+  }
+
+  .panel-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .panel-header p {
+    font-size: 0.85rem;
+  }
+
+  .panel-content {
+    font-size: 0.85rem;
+  }
 }

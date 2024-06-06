@@ -2,6 +2,7 @@
   width: 100vw;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #eae0d5;
@@ -11,21 +12,21 @@
 
 .title {
   font-size: 3rem;
-  font-size: 3rem;
 }
 
 .desc {
   padding: 1rem;
   font-size: medium;
   font-weight: 300;
+  text-align: center;
 }
-
 
 .links {
   display: flex;
   gap: 1rem;
   font-size: 2rem;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 .links a {
@@ -68,4 +69,38 @@
 .submitBtn:hover {
   background: #eae0d5;
   color: #4a4e69;
+}
+
+@media (max-width: 768px) {
+
+  .links {
+    flex-direction: row;
+    font-size: 1.5rem;
+  }
+
+  .inputField {
+    max-width: 30rem;
+  }
+
+  .submitBtn {
+    margin: 1rem auto 0;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .links {
+    flex-direction: row;
+    font-size: 1.2rem;
+  }
+
+  .inputField {
+    max-width: 20rem;
+  }
+
+  .submitBtn {
+    font-size: small;
+    padding: 0.75rem;
+    width: 6rem;
+  }
 }
