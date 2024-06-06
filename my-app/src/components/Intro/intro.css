@@ -1,4 +1,3 @@
-/* General styles */
 #intro {
   min-height: calc(100vh - 8rem);
   width: 100vw;
@@ -17,17 +16,13 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
-  width: 100%;
+  width: 80%;
   max-width: 1050px;
 }
 
 .introText {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
-}
-
-.introText .hi {
-  font-size: 1.5rem;
 }
 
 .typewriter h1 {
@@ -39,11 +34,11 @@
 }
 
 .introText span {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .introText .grey {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .btnGroup {
@@ -91,12 +86,30 @@
     font-size: 1.5rem;
   }
 
-  .introText .hi {
-    font-size: 1.2rem;
+  .introText span {
+    font-size: 1rem;
+  }
+
+  .introText .grey {
+    font-size: 1rem;
+  }
+
+  .typewriter h1 {
+    font-size: 3rem;
+  }
+    
+  .introImage {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .introText {
+    font-size: 1.5rem;
   }
 
   .introText span {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .introText .grey {
@@ -105,28 +118,6 @@
 
   .typewriter h1 {
     font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .introText {
-    font-size: 1.2rem;
-  }
-
-  .introText .hi {
-    font-size: 1rem;
-  }
-
-  .introText span {
-    font-size: 0.9rem;
-  }
-
-  .introText .grey {
-    font-size: 0.8rem;
-  }
-
-  .typewriter h1 {
-    font-size: 1.5rem;
   }
 
   .btn {
@@ -137,6 +128,10 @@
   .btnGroup {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .introImage {
+    max-width: 85%;
   }
 }
 
