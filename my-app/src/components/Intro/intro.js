@@ -1,6 +1,7 @@
 import React from 'react';
 import './intro.css';
 import { Link } from 'react-scroll';
+import resumePDF from '../../assets/Keerthi_Binu_Resume.pdf';
 import profileImage from '../../assets/profile_img.jpeg';
 
 const Intro = () => {
@@ -17,7 +18,7 @@ const Intro = () => {
             Exploring the dynamic domains of web development and machine learning, driven by curiosity and enthusiasm.
           </span>
           <div className="btnGroup">
-            <a href={require("../../assets/Keerthi_Binu_resume.pdf")} download="Keerthi_Binu.pdf">
+            <a href={resumePDF} download="Keerthi_Binu.pdf">
               <button className="btn">Resume</button>
             </a>
             <Link to="skills" spy={true} smooth={true} offset={-100} duration={500}><button className="btn">Skills</button></Link>
