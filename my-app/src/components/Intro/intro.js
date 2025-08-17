@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 import { Link } from 'react-scroll';
-import profileImage from '../../assets/profile.jpg';
+import profileImage from '../../assets/profile_img.jpeg';
 
 const Intro = () => {
   return (
